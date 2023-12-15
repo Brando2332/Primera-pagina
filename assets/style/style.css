@@ -80,9 +80,10 @@ body{
 
 .Jumbotron_2 img {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     z-index: -10;
+    width: 100%;
 }
 
 .Jumbotron img {
@@ -90,6 +91,7 @@ body{
     right: 0;
     top: 0;
     z-index: -10;
+    width: 100%;
 }
 
 .button{

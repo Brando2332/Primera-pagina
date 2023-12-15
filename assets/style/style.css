@@ -1,0 +1,148 @@
+@font-face {
+    font-family: coolvetica ;
+    src: url(/assets/font/coolvetica\ rg.otf);
+}
+
+*{
+    color: #000000;
+    
+    background-color: transparent;
+    
+    font-family: roboto , sans-serif ;
+    
+    font-size: 12pt;
+    
+    font-size: 400;
+    
+    list-style: none;
+    
+    text-decoration: none;
+    
+    text-shadow: none;
+    
+    border:solid 2pt red;
+
+    outline: none;
+    
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #ffffff;
+    }
+.header{
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+
+}
+
+.header .navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .navbar .list {
+    gap: 16pt;
+    display: flex;
+    justify-content: center;
+}
+
+.Jumbotron{
+    position: relative;
+    padding: 80pt 0;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #fff, #ffffff00);
+}
+
+.Jumbotron_2 {
+    position: relative;
+    padding: 80pt 0;
+    overflow: hidden;
+    background-image: linear-gradient(270deg, #fff, #ffffff00);
+}
+.Jumbotron_2 div {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.Jumbotron_2 img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+}
+
+.Jumbotron img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+}
+
+.button{
+    background-color: #026873;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: .6rem 1.7rem;
+}
+.button:hover {
+    background-color: #4c8601;
+    animation-name: myanimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+.button:active {
+    background-color: #0a2875;
+}
+
+p{
+    max-width: 50%;
+}
+
+/*animacion/ 
+
+/* @keyframes myanimation {
+    0%{
+        transform: rotateZ(0deg);
+    }
+
+    50%{
+        transform: rotateZ(100deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+    
+} */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(360deg, #0872af, #ffffff00);
+    padding: 1rem;
+
+}
+
+.footer .list{
+    gap: 16pt;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
